@@ -1,11 +1,8 @@
 import turtle
 turtle.Screen().bgcolor("orange")
-turtle.Screen().setup(300, 400)
-polygon = turtle.Turtle()
-
-num_sides = 6
-side_length = 70
-angle = 360 / num_sides
-for _ in range(num_sides):
-    polygon.forward(side_length)
-    polygon.right(angle)
+turtle.Screen().setup(800, 400)
+square = turtle.Turtle()
+square.color("blue")
+for _ in range(4):
+    square.forward(100)
+    square.right(90)
